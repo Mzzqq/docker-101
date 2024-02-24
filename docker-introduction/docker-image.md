@@ -6,5 +6,5 @@
 
 ## Download Docker Image
 
-- Untuk download Docker Image dari Docker Registry, kita bisa gunakan perintah: `docker image pull imagename:tag`
+- Untuk download Docker Image dari Docker Registry, kita bisa gunakan perintah: `docker image pull imagename:tag` atau `docker pull imagename`
 - Kita bisa mencari Docker Image yang ingin kita download di https://hub.docker.com
