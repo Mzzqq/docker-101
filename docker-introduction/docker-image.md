@@ -37,3 +37,9 @@
 - Contoh:
     - `docker container start a4b805ed1a0e`
     - `docker container start redis-example`
+
+## Menghentikan Container
+
+- Untuk menghentikan container yang sedang berjalan, bisa dengan menggunakan perintah:
+    - `docker container stop container-id`
+    - `docker container stop container-name`
