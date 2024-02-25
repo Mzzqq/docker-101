@@ -28,3 +28,8 @@
     - `docker container create --name containername imagename:tag`
 - Jika image yang digunakan belom di download maka docker akan secara otomatis mendownload image tersebut
 - Nama container yang dibuat harus _unique_, artinya tiap nama container yang dibuat harus berbeda-beda
+
+## Menjalankan Container
+
+- Untuk menjalankan container yang sudah dibuat, bisa dengan menggunakan perintah:
+    - `docker container start container-id/container-name`
