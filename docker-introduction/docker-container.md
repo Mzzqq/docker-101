@@ -5,6 +5,14 @@
 - Jika kita sudah membuat Docker Container, maka Docker Image yang digunakan tidak bisa dihapus. Hal ini dikarenakan sebenarnya Docker Container tidak meng-_copy_ isi Docker Image, tapi hanya menggunakan isinya saja
 
 ## Status Container
+
 - Saat kita membuat container, secara default container tersebut tidak akan berjalan
 - Mirip seperti kita menginstall aplikasi, jika kita tidak jalankan, maka aplikasi tersebut tidak akan berjalan. begitu juga dengan container.
 - Oleh karena itu, setelah membuat container, kita perlu menjalankannya jika memang ingin menjalankan container nya
+
+## Melihat Container
+
+- Untuk melihat semua container, baik yang sedang berjalan atau tidak di Docker Daemon (Server), bisa dengan menggunakan perintah:
+    - `docker container ls -a`
+- Sedangkan jika kita ingin melihat container yang sedang berjalan saja, kita bisa gunakan perintah:
+    - `docker container ls` 
