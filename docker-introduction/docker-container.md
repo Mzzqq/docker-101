@@ -15,4 +15,32 @@
 - Untuk melihat semua container, baik yang sedang berjalan atau tidak di Docker Daemon (Server), bisa dengan menggunakan perintah:
     - `docker container ls -a`
 - Sedangkan jika kita ingin melihat container yang sedang berjalan saja, kita bisa gunakan perintah:
-    - `docker container ls` 
+    - `docker container ls`
+    
+## Membuat Container
+
+- Untuk membuat container kita bisa menggunakan perintah:
+    - `docker container create --name containername imagename:tag`
+- Jika image yang digunakan belom di download maka docker akan secara otomatis mendownload image tersebut
+- Nama container yang dibuat harus _unique_, artinya tiap nama container yang dibuat harus berbeda-beda
+
+## Menjalankan Container
+
+- Untuk menjalankan container yang sudah dibuat, bisa dengan menggunakan perintah:
+    - `docker container start container-id`
+    - `docker container start container-name`
+- Contoh:
+    - `docker container start a4b805ed1a0e`
+    - `docker container start redis-example`
+
+## Menghentikan Container
+
+- Untuk menghentikan container yang sedang berjalan, bisa dengan menggunakan perintah:
+    - `docker container stop container-id`
+    - `docker container stop container-name`
+
+## Menghapus Container
+
+- Untuk menghapus container yang sudah berhenti, bisa dengan menggunakan perintah:
+    - `docker container rm container-id`
+    - `docker container rm container-name` 
