@@ -21,3 +21,8 @@
     - `docker image rm imagename:tag`
     - `docker image remove imagename:tag`
     - `docker rmi imagename:tag`
+
+## Membuat Container
+
+- Untuk membuat container kita bisa menggunakan perintah:
+    - `docker container create --name containername imagename:tag`
