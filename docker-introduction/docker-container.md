@@ -73,3 +73,9 @@
 - `-i` adalah argumen interaktif, menjaga input tetap aktif 
 - `-t` adalah argumen untuk alokasi pseudo-TTY (terminal akses)
 - `/bin/bash` adalah contoh program yang terdapat di dalam container
+
+## Container Port
+
+- Saat menjalankan container, container terisolasi di dalam docker
+- Artinya sistem host (misal laptop kita), tidak bias mengakses aplikasi yang ada di dalam container secara langsung, salah satunya adalah dengan menggunakan Container Exec untuk masuk ke dalam container nya
+- Biasanya, aplikasi berjalan pada port tertentu, misal saat kita menjalankan aplikasi Redis, dia berjalan pada port 6379, kita bisa melihat port apa yang digunakan ketika melihat semua daftar container
