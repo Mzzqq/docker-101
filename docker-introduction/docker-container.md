@@ -79,3 +79,8 @@
 - Saat menjalankan container, container terisolasi di dalam docker
 - Artinya sistem host (misal laptop kita), tidak bias mengakses aplikasi yang ada di dalam container secara langsung, salah satunya adalah dengan menggunakan Container Exec untuk masuk ke dalam container nya
 - Biasanya, aplikasi berjalan pada port tertentu, misal saat kita menjalankan aplikasi Redis, dia berjalan pada port 6379, kita bisa melihat port apa yang digunakan ketika melihat semua daftar container
+
+## Port Forwarding
+
+- Docker memiliki kemampuan untuk melakukan port forwarding, yaitu meneruskan sebuah port yang terdapat pada sistem host ke dalam docker container
+- Cara ini cocok jika kita ingin mengekspos port yang terdapat di container ke luar melalui sistem host nya
