@@ -43,3 +43,9 @@
 - Untuk menghentikan container yang sedang berjalan, bisa dengan menggunakan perintah:
     - `docker container stop container-id`
     - `docker container stop container-name`
+
+## Menghapus Container
+
+- Untuk menghapus container yang sudah berhenti, bisa dengan menggunakan perintah:
+    - `docker container rm container-id`
+    - `docker container rm container-name`
