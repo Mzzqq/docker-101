@@ -64,3 +64,12 @@
 - Saat kita membuat container, aplikasi yang terdapat di dalam container hanya bisa di akses dari dalam container
 - Oleh karena itu, kadang kita perlu masuk ke dalam container nya itu sendiri
 - Untuk masuk ke dalam container, kita bisa menggunakan fitur Container Exec, dimana digunakan untuk mengeksekusi kode program yang terdapat di dalam container
+
+## Masuk ke Container
+
+- Untuk masuk ke dalam container, kita bisa mencoba mengeksekusi program bash script yang terdapat di dalam container dengan bantuan Container Exec: 
+    - `docker container exec -i -t container-id /bin/bash`
+    - `docker container exec -i -t container-name /bin/bash`
+- `-i` adalah argumen interaktif, menjaga input tetap aktif 
+- `-t` adalah argumen untuk alokasi pseudo-TTY (terminal akses)
+- `/bin/bash` adalah contoh program yang terdapat di dalam container
