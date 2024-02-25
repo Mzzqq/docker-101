@@ -109,3 +109,9 @@
 - Untunya docker memiliki kemampuan untuk melihat penggunaan resource dari tiap container yang sedang berjalan
 - kita bisa gunakan perintah:
     - `docker container stats`
+
+## Container Resource Limit
+
+- Saat membuat container, secara default dia akan menggunakan semua CPU dan memory yang diberikan ke Docker (Mac dan Windows) dan akan menggunakan semua CPU dan memory yang tersedia di sistem host (Linux)
+- Jika terjadi kesalahan, misal container terlalu banyak memakan CPU dan memory, maka bisa berdampak terhadap performa container lain atau bahkan ke sistem host 
+- Oleh karena itu, ada baiknya ketika kita membuat container, kita memberikan resource limit terhadap container nya
