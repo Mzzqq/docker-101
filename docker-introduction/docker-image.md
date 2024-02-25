@@ -32,4 +32,8 @@
 ## Menjalankan Container
 
 - Untuk menjalankan container yang sudah dibuat, bisa dengan menggunakan perintah:
-    - `docker container start container-id/container-name`
+    - `docker container start container-id`
+    - `docker container start container-name`
+- Contoh:
+    - `docker container start a4b805ed1a0e`
+    - `docker container start redis-example`
