@@ -49,3 +49,12 @@
 
 - Kadang saat terjadi masalah dengan aplikasi yang terdapat pada container, seringkali kita ingin melihat detail dari log aplikasinya
 - Hal ini dilakukan untuk melihat detail kejadian apa yang terjadi di aplikasi, sehingga akan memudahkan kita ketika mendapat masalah
+
+## Melihat Container Log
+
+- Untuk melihat log aplikasi di container kita, bisa dengan menggunakan perintah:
+    - `docker container logs container-id`
+    - `docker container logs container-name`
+- Atau, jika ingin melihat log secara realtime, bisa dengan menggunakan perintah:
+    - `docker container logs -f container-id`
+    - `docker container logs -f container-name`
