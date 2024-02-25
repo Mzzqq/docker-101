@@ -96,3 +96,8 @@
 - Saat membuat aplikasi, menggunakan Environment Variable adalah salah satu teknik agar konfigurasi aplikasi dapat di ubah secara dinamis
 - Dengan menggunakan environment variable, kita bisa mengubah-ubah konfigurasi aplikasi tanpa harus mengubah kode aplikasi nya lagi
 - Docker Container memiliki parameter yang bisa kita gunakan untuk mengirim environment variable ke aplikasi yang terdapat di dalam container
+
+## Menambah Environment Variable
+
+- Untuk menambahkan environment variable, kita bisa menggunakan perintah `--env` atau `-e`, contoh:
+    - `docker container create --name container-name --env KEY="value" --env KEY2="value" image:tag`
