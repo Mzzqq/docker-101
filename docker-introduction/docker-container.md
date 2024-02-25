@@ -101,3 +101,11 @@
 
 - Untuk menambahkan environment variable, kita bisa menggunakan perintah `--env` atau `-e`, contoh:
     - `docker container create --name container-name --env KEY="value" --env KEY2="value" image:tag`
+
+## Container Stats
+
+- saat menjalankan beberapa container, di sistem host, penggunaan resource seperti CPU dan memory hanya terlihat digunakan oleh docker saja
+- Kadang kita ingin melihat detail dari penggunaan resource untuk setiap container nya
+- Untunya docker memiliki kemampuan untuk melihat penggunaan resource dari tiap container yang sedang berjalan
+- kita bisa gunakan perintah:
+    - `docker container stats`
