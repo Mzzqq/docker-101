@@ -58,3 +58,9 @@
 - Atau, jika ingin melihat log secara realtime, bisa dengan menggunakan perintah:
     - `docker container logs -f container-id`
     - `docker container logs -f container-name`
+
+## Container Exec
+
+- Saat kita membuat container, aplikasi yang terdapat di dalam container hanya bisa di akses dari dalam container
+- Oleh karena itu, kadang kita perlu masuk ke dalam container nya itu sendiri
+- Untuk masuk ke dalam container, kita bisa menggunakan fitur Container Exec, dimana digunakan untuk mengeksekusi kode program yang terdapat di dalam container
