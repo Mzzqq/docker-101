@@ -88,4 +88,5 @@
 ## Melakukan Port Forwarding
 - Untuk melakukan port forwarding, kita bisa menggunakan perintah berikut ketika membuat container nya:
     - `docker container create --name container-name --publish posthost:postcontainer image:tag`
+- Jika kita ingin melakukan port forwarding lebih dari satu, kita bisa tambahkan dua kali parameter `--publish`
 - `--publish` juga bisa disingkat menggunakan `-p`
