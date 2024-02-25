@@ -44,3 +44,8 @@
 - Untuk menghapus container yang sudah berhenti, bisa dengan menggunakan perintah:
     - `docker container rm container-id`
     - `docker container rm container-name` 
+
+## Container Log
+
+- Kadang saat terjadi masalah dengan aplikasi yang terdapat pada container, seringkali kita ingin melihat detail dari log aplikasinya
+- Hal ini dilakukan untuk melihat detail kejadian apa yang terjadi di aplikasi, sehingga akan memudahkan kita ketika mendapat masalah
