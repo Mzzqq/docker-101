@@ -26,3 +26,4 @@
 
 - Untuk membuat container kita bisa menggunakan perintah:
     - `docker container create --name containername imagename:tag`
+- Jika image yang digunakan belom di download maka akan otomatis mendownload image tersebut
