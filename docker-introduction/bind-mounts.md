@@ -14,3 +14,8 @@
 | source      | Lokasi file atau folder di sistem host                                                  |
 | destination | Lokasi file atau folder di container                                                    |
 | readonly    | Jika ada, maka file atau folder hanya bisa <br/>dibaca di container, tidak bisa ditulis |
+
+## Melakukakan Mounting
+
+- Untuk melakukan mounting, kita bisa menggunakan perintah berikut:
+    - `docker container create --name container-name --mount "type=bind,source=/path/to/host,destination=/path/to/container,readonly" image:tag`
