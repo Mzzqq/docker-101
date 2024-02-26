@@ -10,3 +10,8 @@
 - Jika kita coba melihat docker volume, maka akan lihat bahwa ada banyak volume yang sudah terbuat, walaupun kita belum pernah membuatnya sama sekali
 - kita bisa menggunakan perintah berikut untuk melihat daftar volume:
     - `docker volume ls`
+
+## Membuat volume
+
+- Untuk membuat volume bisa menggunakan perintah:
+    - `docker volume create volume-name`
