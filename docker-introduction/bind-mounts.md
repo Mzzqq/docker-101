@@ -5,3 +5,12 @@
 - Jika file atau folder tidak ada di sistem host, secara otomatis akan dibuatkan oleh sistem docker 
 - Untuk melakukan mounting, kita bisa menggunakan parameter `--mount` ketika membuat container
 - Isi dari parameter `--mount` memiliki aturan tersendiri
+
+## Parameter Mount
+
+| Parameter   | Keterangan                                                                              |
+|-------------|-----------------------------------------------------------------------------------------|
+| type        | Tipe mount, bind atau volume                                                            |
+| source      | Lokasi file atau folder di sistem host                                                  |
+| destination | Lokasi file atau folder di container                                                    |
+| readonly    | Jika ada, maka file atau folder hanya bisa <br/>dibaca di container, tidak bisa ditulis |
