@@ -11,7 +11,13 @@
 - kita bisa menggunakan perintah berikut untuk melihat daftar volume:
     - `docker volume ls`
 
-## Membuat volume
+## Membuat Volume
 
 - Untuk membuat volume bisa menggunakan perintah:
     - `docker volume create volume-name`
+
+## Menghapus Volume
+
+- Volume yang tidak digunakan oleh container bisa kita hapus, tapi jika volume digunakan oleh container, maka kita tidak bisa hapus sampe container nya di hapus
+- Untuk menghapus volume, bisa dengan menggunakan perintah
+    - `docker volume rm volume-name`
