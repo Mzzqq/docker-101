@@ -1,4 +1,8 @@
 # docker-experiment
+- Nama: Rizky Fahrureza
+- NPM: 2210631170149
+- Mata Kuliah: Pemrograman Berorientasi Web
+- Dosen Pengampu: Kamal Prihandani, M.Kom.
 
 ### Sumber belajar
 - https://www.youtube.com/watch?v=3_yxVjV88Zk&t=173s&ab_channel=ProgrammerZamanNow
